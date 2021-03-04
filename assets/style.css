@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    max-width: 100%;
+    background-color: #E0E7F4;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.base_id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.from_to{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.from, .to{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input .input_field{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 100px;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#digit, #digit2{
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #86a9eb;
+    outline: none;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.inputss{
+    display: flex;
+    justify-content: space-evenly;
+}
+.digit_to, .digit_from{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#exchange{
+    color: #86a9eb;
+    z-index: 1;
+    margin-top: 8px;
+}
+.input_field .calc_btn{
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #86a9eb;
+    border-radius: 10px;
+    color: white;
+}
+.solution_container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.solution{
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer p i{
+    color: #f57abe;
+}
+footer{
+    max-width: 100%;
+    width: 94.5%;
+    display: flex;
+    background-color: #E0E7F4;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    justify-content: center;
+}

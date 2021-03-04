@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Converter</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <nav>
+        Base Calculator
+    </nav>
+    <section class="base_id">
+        <div class="from_to">
+            <div class="from">
+                <small>from: </small>
+                <select name="base" id="base">
+                    <option value="2">binary (2)</option>
+                    <option value="10">Decimal (10)</option>
+                    <option value="8">Octal (8)</option>
+                    <option value="16">Hexadecimal (16)</option>
+                </select>
+            </div>
+            <div class="to">
+                <small>to: </small>
+                <select name="base" id="base2">
+                    <option value="2">binary (2)</option>
+                    <option value="10">Decimal (10)</option>
+                    <option value="8">Octal (8)</option>
+                    <option value="16">Hexadecimal (16)</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <section class="input">
+        <div class="input_field">
+            <div class="inputss">
+                <div class="digit_from">
+                    <input type="text" pattern="\d*" name="digit" id="digit">
+                </div>
+                <span id="exchange"><i class="fas fa-exchange-alt"></i></span>
+                <div class="digit_to">
+                    <input type="text" pattern="\d*" name="digit" id="digit2">
+                </div>
+            </div>           
+        <button class="calc_btn" onclick="calculate()">Calculate</button>
+        </div>      
+    </section>
+    <div class="solution_container">
+        <div class="solution">
+            <p id="digit_solution">
+                <span>solution</span>
+            </p>
+        </div> 
+    </div>
+    <footer>
+        <p>made with <i class="fas fa-heart"></i> by <a href="https://github.com/Harithmetic1/">Harith</a></p>
+    </footer>
+</body>
+<script src="assets/app.js"></script>
+<script src="https://kit.fontawesome.com/dc7f1f050e.js" crossorigin="anonymous"></script>
+</html>
