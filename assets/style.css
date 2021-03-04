@@ -106,3 +106,9 @@ footer{
     text-align: center;
     justify-content: center;
 }
+
+@media (min-width: 1200px){
+    footer{
+        width: 98.5%;
+    }
+}
